@@ -7,8 +7,16 @@ html {
   overflow: hidden;    
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 h1, span {
-  font-size: calc(3rem + 1vw);
+  font-size: calc(3rem + 2vw);
   text-align: center;
 }
 
@@ -38,6 +46,9 @@ section {
 }
 
 .header-section {
+  max-width: 87vw;
+  max-height: 87vh;
+  padding: 0 5vw;
   outline: 0.5vh solid #FFF9F0;
 }
 
@@ -46,7 +57,7 @@ section {
 }
 
 .img {
-  max-width: 90vw;
+  max-width: 87vw;
   max-height: 87vh;
   border: 3vh solid #4A6D86;
   box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.4);
