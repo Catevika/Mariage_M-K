@@ -1,7 +1,5 @@
 html {
   font-family: 'Updock', cursive;
-  font-size: 5rem;
-  line-height: 1rem;
   color: #FFF9F0;
   background-color: #4A6D86;
   -ms-scroll-snap-type: y mandatory;
@@ -9,8 +7,17 @@ html {
   overflow: hidden;    
 }
 
+h1, span {
+  font-size: calc(3rem + 1vw);
+  text-align: center;
+}
+
+span {
+  display: block;
+}
+
 header section img {
-  height: 20vh;
+  height: 30vh;
 }
 
 main {
@@ -30,6 +37,14 @@ section {
   align-items: center;
 }
 
+.header-section {
+  outline: 0.5vh solid #FFF9F0;
+}
+
+.love {
+  width: 30vh;
+}
+
 .img {
   max-width: 90vw;
   max-height: 87vh;
@@ -42,9 +57,10 @@ section {
   position: fixed;
   bottom: 1vh;
   align-items: center;
-  width: 5vh;
-  height: 5vh;
-  background-color: #FFF9F0;
+  width: 4vh;
+  height: 4vh;
+  background-color: #4A6D86;
+  outline: 0.5vh solid #FFF9F0;
   border-radius: 50%;
   box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.4);
   cursor: pointer;
@@ -54,9 +70,10 @@ section {
   position: fixed;
   top: 1vh;
   align-items: center;
-  width: 5vh;
-  height: 5vh;
-  background-color: #FFF9F0;
+  width: 4vh;
+  height: 4vh;
+  background-color: #4A6D86;
+  outline: 0.5vh solid #FFF9F0;
   border-radius: 50%;
   box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.4);
   cursor: pointer;
