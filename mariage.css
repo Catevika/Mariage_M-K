@@ -1,0 +1,39 @@
+html {
+  font-family: 'Updock', cursive;
+  font-size: 5rem;
+  line-height: 1rem;
+  color: #FFF9F0;
+  background-color: #4A6D86;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow: hidden;    
+}
+
+header section img {
+  height: 20vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  block-size: 100vh;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 90vw;
+  max-height: 87vh;
+  border: 3vh solid #4A6D86;
+  box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.4);
+  outline: 0.5vh solid #FFF9F0;
+}
